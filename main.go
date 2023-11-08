@@ -2,7 +2,6 @@ package hangmanlesbg
 
 import (
 	"fmt"
-	hangmanlesbg "hangmanlesbg/jeu"
 	"math/rand"
 	"os"
 	"slices"
