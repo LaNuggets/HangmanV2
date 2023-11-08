@@ -6,6 +6,7 @@ import (
 	"os"
 	"slices"
 	"strconv"
+	hangmanlesbg "hangmanlesbg/jeu"
 )
 
 func main() {
