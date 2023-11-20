@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"math/rand"
 	"os"
-	"strings"
 )
 
 func SelectWord(s string) []string {
@@ -15,7 +14,6 @@ func SelectWord(s string) []string {
 	}
 	list := ByteToString(content)
 	mot := list[rand.Intn(len(list)-1)]
-	mot = strings.TrimSpace(mot)
 	run := []rune(mot)
 	str := []string{}
 	for i := 0; i < len(mot); i++ {
